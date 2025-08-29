@@ -9,7 +9,7 @@ a{
     color: black;
 }
 h1{
-    font-size: 40px;
+    font-size: 3vw;
 }
 p{
     font-size: 25px;
@@ -133,9 +133,23 @@ p{
 
     height: 40px;
     width: 130px;
+    margin: 20px;
     transition: background-color 0.5s ease, transform 0.3s ease;
 }
 #btn:hover{
     background-color: #F04B3D;
     transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 10vw;
+    }
+
+    p{
+        font-size: 3vw;
+        margin: 0px;
+    }
+    
 }
